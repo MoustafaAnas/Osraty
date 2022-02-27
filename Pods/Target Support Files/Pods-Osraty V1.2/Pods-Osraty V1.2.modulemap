@@ -1,0 +1,6 @@
+framework module Pods_Osraty_V1_2 {
+  umbrella header "Pods-Osraty V1.2-umbrella.h"
+
+  export *
+  module * { export * }
+}

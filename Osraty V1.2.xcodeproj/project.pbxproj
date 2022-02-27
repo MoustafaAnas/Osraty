@@ -1,0 +1,913 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A9DD81D5F28AE8A30CB3226 /* Pods_Osraty_V1_2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71F61E6776B62D27D53FA1AE /* Pods_Osraty_V1_2.framework */; };
+		4C1CA85E233CC89A00C2A7E2 /* naviControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1CA85D233CC89A00C2A7E2 /* naviControler.swift */; };
+		4CAD67E02333E9E700D6EEBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD67DC2333E9E700D6EEBD /* Main.storyboard */; };
+		4CAD67E12333E9E700D6EEBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CAD67DE2333E9E700D6EEBD /* LaunchScreen.storyboard */; };
+		D54FF8E7232E83D2005C1A8E /* TextFiedPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D54FF8E6232E83D2005C1A8E /* TextFiedPadding.swift */; };
+		D59CA653232D0B35004B5AFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA652232D0B35004B5AFF /* AppDelegate.swift */; };
+		D59CA65A232D0B38004B5AFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D59CA659232D0B38004B5AFF /* Assets.xcassets */; };
+		D59CA694232D0D4C004B5AFF /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA666232D0D4C004B5AFF /* ProfileVC.swift */; };
+		D59CA695232D0D4C004B5AFF /* TermsAndConditionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA667232D0D4C004B5AFF /* TermsAndConditionsVC.swift */; };
+		D59CA696232D0D4C004B5AFF /* NotifictionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA668232D0D4C004B5AFF /* NotifictionsVC.swift */; };
+		D59CA698232D0D4C004B5AFF /* ListPricesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA66A232D0D4C004B5AFF /* ListPricesVC.swift */; };
+		D59CA699232D0D4C004B5AFF /* AccountManagmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA66B232D0D4C004B5AFF /* AccountManagmentVC.swift */; };
+		D59CA69A232D0D4C004B5AFF /* CallUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA66C232D0D4C004B5AFF /* CallUsVC.swift */; };
+		D59CA69B232D0D4C004B5AFF /* WhoUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA66D232D0D4C004B5AFF /* WhoUsVC.swift */; };
+		D59CA69C232D0D4C004B5AFF /* ConversationsHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA66F232D0D4C004B5AFF /* ConversationsHistoryVC.swift */; };
+		D59CA69D232D0D4C004B5AFF /* constructionChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA670232D0D4C004B5AFF /* constructionChatVC.swift */; };
+		D59CA69E232D0D4C004B5AFF /* customerChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA671232D0D4C004B5AFF /* customerChatVC.swift */; };
+		D59CA69F232D0D4C004B5AFF /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA673232D0D4C004B5AFF /* SplashVC.swift */; };
+		D59CA6A0232D0D4C004B5AFF /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA675232D0D4C004B5AFF /* ChatVC.swift */; };
+		D59CA6A1232D0D4C004B5AFF /* CarRegisterationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA677232D0D4C004B5AFF /* CarRegisterationVC.swift */; };
+		D59CA6A2232D0D4C004B5AFF /* RegisterationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA679232D0D4C004B5AFF /* RegisterationVC.swift */; };
+		D59CA6A3232D0D4C004B5AFF /* CreditCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA67B232D0D4C004B5AFF /* CreditCardVC.swift */; };
+		D59CA6A4232D0D4C004B5AFF /* EnterCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA67D232D0D4C004B5AFF /* EnterCodeVC.swift */; };
+		D59CA6A5232D0D4C004B5AFF /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA67F232D0D4C004B5AFF /* MapVC.swift */; };
+		D59CA6A6232D0D4C004B5AFF /* tabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA681232D0D4C004B5AFF /* tabBarVC.swift */; };
+		D59CA6A7232D0D4C004B5AFF /* OrderDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA683232D0D4C004B5AFF /* OrderDetailsVC.swift */; };
+		D59CA6A8232D0D4C004B5AFF /* WalletVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA685232D0D4C004B5AFF /* WalletVC.swift */; };
+		D59CA6A9232D0D4C004B5AFF /* SelectLanguageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA687232D0D4C004B5AFF /* SelectLanguageVC.swift */; };
+		D59CA6AB232D0D4C004B5AFF /* ContainerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA68A232D0D4C004B5AFF /* ContainerVC.swift */; };
+		D59CA6AC232D0D4C004B5AFF /* CurrentOrdersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA68B232D0D4C004B5AFF /* CurrentOrdersVC.swift */; };
+		D59CA6AD232D0D4C004B5AFF /* LastOrdersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA68C232D0D4C004B5AFF /* LastOrdersVC.swift */; };
+		D59CA6AE232D0D4C004B5AFF /* buttonDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA68E232D0D4C004B5AFF /* buttonDesign.swift */; };
+		D59CA6AF232D0D4C004B5AFF /* Grediant.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA68F232D0D4C004B5AFF /* Grediant.swift */; };
+		D59CA6B0232D0D4C004B5AFF /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA691232D0D4C004B5AFF /* MainVC.swift */; };
+		D59CA6B1232D0D4C004B5AFF /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA693232D0D4C004B5AFF /* LoginVC.swift */; };
+		D59CA6D5232D0DCE004B5AFF /* ConstructionChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA6B4232D0DCE004B5AFF /* ConstructionChatCell.swift */; };
+		D59CA6D6232D0DCE004B5AFF /* ConstructionChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D59CA6B5232D0DCE004B5AFF /* ConstructionChatCell.xib */; };
+		D59CA6D7232D0DCE004B5AFF /* showOrderDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA6B7232D0DCE004B5AFF /* showOrderDetailsCell.swift */; };
+		D59CA6D8232D0DCE004B5AFF /* showOrderDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D59CA6B8232D0DCE004B5AFF /* showOrderDetailsCell.xib */; };
+		D59CA6D9232D0DCE004B5AFF /* orderDetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D59CA6BA232D0DCE004B5AFF /* orderDetailsCell.xib */; };
+		D59CA6DA232D0DCE004B5AFF /* orderDetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA6BB232D0DCE004B5AFF /* orderDetailsCell.swift */; };
+		D59CA6DB232D0DCE004B5AFF /* CustomerChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA6BD232D0DCE004B5AFF /* CustomerChatCell.swift */; };
+		D59CA6DC232D0DCE004B5AFF /* CustomerChatCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D59CA6BE232D0DCE004B5AFF /* CustomerChatCell.xib */; };
+		D59CA6DD232D0DCE004B5AFF /* OrdersTypeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D59CA6C0232D0DCE004B5AFF /* OrdersTypeCell.xib */; };
+		D59CA6DE232D0DCE004B5AFF /* OrdersTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA6C1232D0DCE004B5AFF /* OrdersTypeCell.swift */; };
+		D59CA6DF232D0DCE004B5AFF /* notificationCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D59CA6C3232D0DCE004B5AFF /* notificationCell.xib */; };
+		D59CA6E0232D0DCE004B5AFF /* notificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA6C4232D0DCE004B5AFF /* notificationCell.swift */; };
+		D59CA6E1232D0DCE004B5AFF /* LastOrdersListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D59CA6C6232D0DCE004B5AFF /* LastOrdersListCell.xib */; };
+		D59CA6E2232D0DCE004B5AFF /* LastOrdersListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA6C7232D0DCE004B5AFF /* LastOrdersListCell.swift */; };
+		D59CA6E5232D0DCE004B5AFF /* CreditCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D59CA6CD232D0DCE004B5AFF /* CreditCardCell.xib */; };
+		D59CA6E6232D0DCE004B5AFF /* CreditCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA6CE232D0DCE004B5AFF /* CreditCardCell.swift */; };
+		D59CA6E7232D0DCE004B5AFF /* CurrentOrdersListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D59CA6D0232D0DCE004B5AFF /* CurrentOrdersListCell.xib */; };
+		D59CA6E8232D0DCE004B5AFF /* CurrentOrdersListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA6D1232D0DCE004B5AFF /* CurrentOrdersListCell.swift */; };
+		D59CA6E9232D0DCE004B5AFF /* accManagementCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D59CA6D3232D0DCE004B5AFF /* accManagementCell.xib */; };
+		D59CA6EA232D0DCE004B5AFF /* accManagementCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59CA6D4232D0DCE004B5AFF /* accManagementCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C1CA85D233CC89A00C2A7E2 /* naviControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = naviControler.swift; sourceTree = "<group>"; };
+		4CAD67DD2333E9E700D6EEBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CAD67DF2333E9E700D6EEBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71F61E6776B62D27D53FA1AE /* Pods_Osraty_V1_2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Osraty_V1_2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BFAC72AA7E59BED3D940E06 /* Pods-Osraty V1.2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Osraty V1.2.debug.xcconfig"; path = "Target Support Files/Pods-Osraty V1.2/Pods-Osraty V1.2.debug.xcconfig"; sourceTree = "<group>"; };
+		D54FF8E6232E83D2005C1A8E /* TextFiedPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFiedPadding.swift; sourceTree = "<group>"; };
+		D59CA64F232D0B35004B5AFF /* Osraty V1.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Osraty V1.2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D59CA652232D0B35004B5AFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D59CA659232D0B38004B5AFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D59CA65E232D0B38004B5AFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D59CA666232D0D4C004B5AFF /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		D59CA667232D0D4C004B5AFF /* TermsAndConditionsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsAndConditionsVC.swift; sourceTree = "<group>"; };
+		D59CA668232D0D4C004B5AFF /* NotifictionsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotifictionsVC.swift; sourceTree = "<group>"; };
+		D59CA66A232D0D4C004B5AFF /* ListPricesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListPricesVC.swift; sourceTree = "<group>"; };
+		D59CA66B232D0D4C004B5AFF /* AccountManagmentVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountManagmentVC.swift; sourceTree = "<group>"; };
+		D59CA66C232D0D4C004B5AFF /* CallUsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CallUsVC.swift; sourceTree = "<group>"; };
+		D59CA66D232D0D4C004B5AFF /* WhoUsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhoUsVC.swift; sourceTree = "<group>"; };
+		D59CA66F232D0D4C004B5AFF /* ConversationsHistoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConversationsHistoryVC.swift; sourceTree = "<group>"; };
+		D59CA670232D0D4C004B5AFF /* constructionChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = constructionChatVC.swift; sourceTree = "<group>"; };
+		D59CA671232D0D4C004B5AFF /* customerChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customerChatVC.swift; sourceTree = "<group>"; };
+		D59CA673232D0D4C004B5AFF /* SplashVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
+		D59CA675232D0D4C004B5AFF /* ChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		D59CA677232D0D4C004B5AFF /* CarRegisterationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarRegisterationVC.swift; sourceTree = "<group>"; };
+		D59CA679232D0D4C004B5AFF /* RegisterationVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterationVC.swift; sourceTree = "<group>"; };
+		D59CA67B232D0D4C004B5AFF /* CreditCardVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardVC.swift; sourceTree = "<group>"; };
+		D59CA67D232D0D4C004B5AFF /* EnterCodeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterCodeVC.swift; sourceTree = "<group>"; };
+		D59CA67F232D0D4C004B5AFF /* MapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		D59CA681232D0D4C004B5AFF /* tabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tabBarVC.swift; sourceTree = "<group>"; };
+		D59CA683232D0D4C004B5AFF /* OrderDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderDetailsVC.swift; sourceTree = "<group>"; };
+		D59CA685232D0D4C004B5AFF /* WalletVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalletVC.swift; sourceTree = "<group>"; };
+		D59CA687232D0D4C004B5AFF /* SelectLanguageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectLanguageVC.swift; sourceTree = "<group>"; };
+		D59CA68A232D0D4C004B5AFF /* ContainerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerVC.swift; sourceTree = "<group>"; };
+		D59CA68B232D0D4C004B5AFF /* CurrentOrdersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentOrdersVC.swift; sourceTree = "<group>"; };
+		D59CA68C232D0D4C004B5AFF /* LastOrdersVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastOrdersVC.swift; sourceTree = "<group>"; };
+		D59CA68E232D0D4C004B5AFF /* buttonDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = buttonDesign.swift; sourceTree = "<group>"; };
+		D59CA68F232D0D4C004B5AFF /* Grediant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grediant.swift; sourceTree = "<group>"; };
+		D59CA691232D0D4C004B5AFF /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		D59CA693232D0D4C004B5AFF /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		D59CA6B4232D0DCE004B5AFF /* ConstructionChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstructionChatCell.swift; sourceTree = "<group>"; };
+		D59CA6B5232D0DCE004B5AFF /* ConstructionChatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConstructionChatCell.xib; sourceTree = "<group>"; };
+		D59CA6B7232D0DCE004B5AFF /* showOrderDetailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showOrderDetailsCell.swift; sourceTree = "<group>"; };
+		D59CA6B8232D0DCE004B5AFF /* showOrderDetailsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = showOrderDetailsCell.xib; sourceTree = "<group>"; };
+		D59CA6BA232D0DCE004B5AFF /* orderDetailsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = orderDetailsCell.xib; sourceTree = "<group>"; };
+		D59CA6BB232D0DCE004B5AFF /* orderDetailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = orderDetailsCell.swift; sourceTree = "<group>"; };
+		D59CA6BD232D0DCE004B5AFF /* CustomerChatCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerChatCell.swift; sourceTree = "<group>"; };
+		D59CA6BE232D0DCE004B5AFF /* CustomerChatCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomerChatCell.xib; sourceTree = "<group>"; };
+		D59CA6C0232D0DCE004B5AFF /* OrdersTypeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrdersTypeCell.xib; sourceTree = "<group>"; };
+		D59CA6C1232D0DCE004B5AFF /* OrdersTypeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrdersTypeCell.swift; sourceTree = "<group>"; };
+		D59CA6C3232D0DCE004B5AFF /* notificationCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = notificationCell.xib; sourceTree = "<group>"; };
+		D59CA6C4232D0DCE004B5AFF /* notificationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = notificationCell.swift; sourceTree = "<group>"; };
+		D59CA6C6232D0DCE004B5AFF /* LastOrdersListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LastOrdersListCell.xib; sourceTree = "<group>"; };
+		D59CA6C7232D0DCE004B5AFF /* LastOrdersListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LastOrdersListCell.swift; sourceTree = "<group>"; };
+		D59CA6CD232D0DCE004B5AFF /* CreditCardCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreditCardCell.xib; sourceTree = "<group>"; };
+		D59CA6CE232D0DCE004B5AFF /* CreditCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardCell.swift; sourceTree = "<group>"; };
+		D59CA6D0232D0DCE004B5AFF /* CurrentOrdersListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CurrentOrdersListCell.xib; sourceTree = "<group>"; };
+		D59CA6D1232D0DCE004B5AFF /* CurrentOrdersListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentOrdersListCell.swift; sourceTree = "<group>"; };
+		D59CA6D3232D0DCE004B5AFF /* accManagementCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = accManagementCell.xib; sourceTree = "<group>"; };
+		D59CA6D4232D0DCE004B5AFF /* accManagementCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = accManagementCell.swift; sourceTree = "<group>"; };
+		EEFC7F89E9F1822A331AF9F4 /* Pods-Osraty V1.2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Osraty V1.2.release.xcconfig"; path = "Target Support Files/Pods-Osraty V1.2/Pods-Osraty V1.2.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D59CA64C232D0B35004B5AFF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A9DD81D5F28AE8A30CB3226 /* Pods_Osraty_V1_2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C0F5C4F233D48AF00197675 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA666232D0D4C004B5AFF /* ProfileVC.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		4C0F5C50233D48C200197675 /* Terms and Conditions */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA667232D0D4C004B5AFF /* TermsAndConditionsVC.swift */,
+			);
+			path = "Terms and Conditions";
+			sourceTree = "<group>";
+		};
+		4C0F5C51233D48D400197675 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA668232D0D4C004B5AFF /* NotifictionsVC.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		4C0F5C52233D48E200197675 /* Prices List */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA66A232D0D4C004B5AFF /* ListPricesVC.swift */,
+			);
+			path = "Prices List";
+			sourceTree = "<group>";
+		};
+		4C0F5C53233D48FA00197675 /* Call us */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA66C232D0D4C004B5AFF /* CallUsVC.swift */,
+			);
+			path = "Call us";
+			sourceTree = "<group>";
+		};
+		4C0F5C54233D490A00197675 /* Who us */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA66D232D0D4C004B5AFF /* WhoUsVC.swift */,
+			);
+			path = "Who us";
+			sourceTree = "<group>";
+		};
+		4C0F5C55233D496B00197675 /* First Navigation Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C1CA85D233CC89A00C2A7E2 /* naviControler.swift */,
+			);
+			path = "First Navigation Controller";
+			sourceTree = "<group>";
+		};
+		A6207E5D6CF325A3285339DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71F61E6776B62D27D53FA1AE /* Pods_Osraty_V1_2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D59CA646232D0B35004B5AFF = {
+			isa = PBXGroup;
+			children = (
+				D59CA651232D0B35004B5AFF /* Osraty V1.2 */,
+				D59CA650232D0B35004B5AFF /* Products */,
+				ED05B6F53161302D722356A8 /* Pods */,
+				A6207E5D6CF325A3285339DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D59CA650232D0B35004B5AFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA64F232D0B35004B5AFF /* Osraty V1.2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D59CA651232D0B35004B5AFF /* Osraty V1.2 */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA6EB232D0E0C004B5AFF /* Model */,
+				D59CA6B2232D0DCE004B5AFF /* View */,
+				D59CA664232D0D4C004B5AFF /* Controller */,
+				D59CA6EC232D0F32004B5AFF /* Supporting Files */,
+				D59CA659232D0B38004B5AFF /* Assets.xcassets */,
+			);
+			path = "Osraty V1.2";
+			sourceTree = "<group>";
+		};
+		D59CA664232D0D4C004B5AFF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA652232D0B35004B5AFF /* AppDelegate.swift */,
+				D59CA672232D0D4C004B5AFF /* Splash */,
+				4C0F5C55233D496B00197675 /* First Navigation Controller */,
+				D59CA686232D0D4C004B5AFF /* Select Language */,
+				D59CA692232D0D4C004B5AFF /* Login */,
+				D59CA67C232D0D4C004B5AFF /* Enter Code */,
+				D59CA678232D0D4C004B5AFF /* Registeraion */,
+				D59CA676232D0D4C004B5AFF /* Car Registeration */,
+				D59CA680232D0D4C004B5AFF /* Tab Bar */,
+				D59CA690232D0D4C004B5AFF /* Main */,
+				D59CA67E232D0D4C004B5AFF /* Map */,
+				D59CA689232D0D4C004B5AFF /* Orders */,
+				D59CA682232D0D4C004B5AFF /* Order Details */,
+				D59CA684232D0D4C004B5AFF /* Wallet */,
+				D59CA67A232D0D4C004B5AFF /* Credit Card */,
+				D59CA665232D0D4C004B5AFF /* Account Management */,
+				4C0F5C51233D48D400197675 /* Notifications */,
+				4C0F5C53233D48FA00197675 /* Call us */,
+				4C0F5C54233D490A00197675 /* Who us */,
+				4C0F5C50233D48C200197675 /* Terms and Conditions */,
+				4C0F5C52233D48E200197675 /* Prices List */,
+				4C0F5C4F233D48AF00197675 /* Profile */,
+				D59CA66E232D0D4C004B5AFF /* Conversation History */,
+				D59CA674232D0D4C004B5AFF /* Chat */,
+				D59CA68D232D0D4C004B5AFF /* Extention */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D59CA665232D0D4C004B5AFF /* Account Management */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA66B232D0D4C004B5AFF /* AccountManagmentVC.swift */,
+			);
+			path = "Account Management";
+			sourceTree = "<group>";
+		};
+		D59CA66E232D0D4C004B5AFF /* Conversation History */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA66F232D0D4C004B5AFF /* ConversationsHistoryVC.swift */,
+				D59CA670232D0D4C004B5AFF /* constructionChatVC.swift */,
+				D59CA671232D0D4C004B5AFF /* customerChatVC.swift */,
+			);
+			path = "Conversation History";
+			sourceTree = "<group>";
+		};
+		D59CA672232D0D4C004B5AFF /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA673232D0D4C004B5AFF /* SplashVC.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		D59CA674232D0D4C004B5AFF /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA675232D0D4C004B5AFF /* ChatVC.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		D59CA676232D0D4C004B5AFF /* Car Registeration */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA677232D0D4C004B5AFF /* CarRegisterationVC.swift */,
+			);
+			path = "Car Registeration";
+			sourceTree = "<group>";
+		};
+		D59CA678232D0D4C004B5AFF /* Registeraion */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA679232D0D4C004B5AFF /* RegisterationVC.swift */,
+			);
+			path = Registeraion;
+			sourceTree = "<group>";
+		};
+		D59CA67A232D0D4C004B5AFF /* Credit Card */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA67B232D0D4C004B5AFF /* CreditCardVC.swift */,
+			);
+			path = "Credit Card";
+			sourceTree = "<group>";
+		};
+		D59CA67C232D0D4C004B5AFF /* Enter Code */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA67D232D0D4C004B5AFF /* EnterCodeVC.swift */,
+			);
+			path = "Enter Code";
+			sourceTree = "<group>";
+		};
+		D59CA67E232D0D4C004B5AFF /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA67F232D0D4C004B5AFF /* MapVC.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		D59CA680232D0D4C004B5AFF /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA681232D0D4C004B5AFF /* tabBarVC.swift */,
+			);
+			path = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		D59CA682232D0D4C004B5AFF /* Order Details */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA683232D0D4C004B5AFF /* OrderDetailsVC.swift */,
+			);
+			path = "Order Details";
+			sourceTree = "<group>";
+		};
+		D59CA684232D0D4C004B5AFF /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA685232D0D4C004B5AFF /* WalletVC.swift */,
+			);
+			path = Wallet;
+			sourceTree = "<group>";
+		};
+		D59CA686232D0D4C004B5AFF /* Select Language */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA687232D0D4C004B5AFF /* SelectLanguageVC.swift */,
+			);
+			path = "Select Language";
+			sourceTree = "<group>";
+		};
+		D59CA689232D0D4C004B5AFF /* Orders */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA68A232D0D4C004B5AFF /* ContainerVC.swift */,
+				D59CA68B232D0D4C004B5AFF /* CurrentOrdersVC.swift */,
+				D59CA68C232D0D4C004B5AFF /* LastOrdersVC.swift */,
+			);
+			path = Orders;
+			sourceTree = "<group>";
+		};
+		D59CA68D232D0D4C004B5AFF /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA68E232D0D4C004B5AFF /* buttonDesign.swift */,
+				D59CA68F232D0D4C004B5AFF /* Grediant.swift */,
+				D54FF8E6232E83D2005C1A8E /* TextFiedPadding.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		D59CA690232D0D4C004B5AFF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA691232D0D4C004B5AFF /* MainVC.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D59CA692232D0D4C004B5AFF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA693232D0D4C004B5AFF /* LoginVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D59CA6B2232D0DCE004B5AFF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4CAD67DC2333E9E700D6EEBD /* Main.storyboard */,
+				4CAD67DE2333E9E700D6EEBD /* LaunchScreen.storyboard */,
+				D59CA6BF232D0DCE004B5AFF /* Orders Type Cell */,
+				D59CA6CF232D0DCE004B5AFF /* Current Orders List Cell */,
+				D59CA6C5232D0DCE004B5AFF /* Last Orders List Cell */,
+				D59CA6D2232D0DCE004B5AFF /* Account Management Cell */,
+				D59CA6C2232D0DCE004B5AFF /* Notifications Cell */,
+				D59CA6BC232D0DCE004B5AFF /* Customers Chat Cell */,
+				D59CA6B3232D0DCE004B5AFF /* Constructions Chat Cell */,
+				D59CA6B9232D0DCE004B5AFF /* Order Details Cell */,
+				D59CA6B6232D0DCE004B5AFF /* Show Order Details Cell */,
+				D59CA6CC232D0DCE004B5AFF /* Credit Card Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D59CA6B3232D0DCE004B5AFF /* Constructions Chat Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA6B4232D0DCE004B5AFF /* ConstructionChatCell.swift */,
+				D59CA6B5232D0DCE004B5AFF /* ConstructionChatCell.xib */,
+			);
+			path = "Constructions Chat Cell";
+			sourceTree = "<group>";
+		};
+		D59CA6B6232D0DCE004B5AFF /* Show Order Details Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA6B7232D0DCE004B5AFF /* showOrderDetailsCell.swift */,
+				D59CA6B8232D0DCE004B5AFF /* showOrderDetailsCell.xib */,
+			);
+			path = "Show Order Details Cell";
+			sourceTree = "<group>";
+		};
+		D59CA6B9232D0DCE004B5AFF /* Order Details Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA6BA232D0DCE004B5AFF /* orderDetailsCell.xib */,
+				D59CA6BB232D0DCE004B5AFF /* orderDetailsCell.swift */,
+			);
+			path = "Order Details Cell";
+			sourceTree = "<group>";
+		};
+		D59CA6BC232D0DCE004B5AFF /* Customers Chat Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA6BD232D0DCE004B5AFF /* CustomerChatCell.swift */,
+				D59CA6BE232D0DCE004B5AFF /* CustomerChatCell.xib */,
+			);
+			path = "Customers Chat Cell";
+			sourceTree = "<group>";
+		};
+		D59CA6BF232D0DCE004B5AFF /* Orders Type Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA6C0232D0DCE004B5AFF /* OrdersTypeCell.xib */,
+				D59CA6C1232D0DCE004B5AFF /* OrdersTypeCell.swift */,
+			);
+			path = "Orders Type Cell";
+			sourceTree = "<group>";
+		};
+		D59CA6C2232D0DCE004B5AFF /* Notifications Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA6C3232D0DCE004B5AFF /* notificationCell.xib */,
+				D59CA6C4232D0DCE004B5AFF /* notificationCell.swift */,
+			);
+			path = "Notifications Cell";
+			sourceTree = "<group>";
+		};
+		D59CA6C5232D0DCE004B5AFF /* Last Orders List Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA6C6232D0DCE004B5AFF /* LastOrdersListCell.xib */,
+				D59CA6C7232D0DCE004B5AFF /* LastOrdersListCell.swift */,
+			);
+			path = "Last Orders List Cell";
+			sourceTree = "<group>";
+		};
+		D59CA6CC232D0DCE004B5AFF /* Credit Card Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA6CD232D0DCE004B5AFF /* CreditCardCell.xib */,
+				D59CA6CE232D0DCE004B5AFF /* CreditCardCell.swift */,
+			);
+			path = "Credit Card Cell";
+			sourceTree = "<group>";
+		};
+		D59CA6CF232D0DCE004B5AFF /* Current Orders List Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA6D0232D0DCE004B5AFF /* CurrentOrdersListCell.xib */,
+				D59CA6D1232D0DCE004B5AFF /* CurrentOrdersListCell.swift */,
+			);
+			path = "Current Orders List Cell";
+			sourceTree = "<group>";
+		};
+		D59CA6D2232D0DCE004B5AFF /* Account Management Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA6D3232D0DCE004B5AFF /* accManagementCell.xib */,
+				D59CA6D4232D0DCE004B5AFF /* accManagementCell.swift */,
+			);
+			path = "Account Management Cell";
+			sourceTree = "<group>";
+		};
+		D59CA6EB232D0E0C004B5AFF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D59CA6EC232D0F32004B5AFF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D59CA65E232D0B38004B5AFF /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED05B6F53161302D722356A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BFAC72AA7E59BED3D940E06 /* Pods-Osraty V1.2.debug.xcconfig */,
+				EEFC7F89E9F1822A331AF9F4 /* Pods-Osraty V1.2.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D59CA64E232D0B35004B5AFF /* Osraty V1.2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D59CA661232D0B38004B5AFF /* Build configuration list for PBXNativeTarget "Osraty V1.2" */;
+			buildPhases = (
+				3E07ED23EE9F2B554C047DBD /* [CP] Check Pods Manifest.lock */,
+				D59CA64B232D0B35004B5AFF /* Sources */,
+				D59CA64C232D0B35004B5AFF /* Frameworks */,
+				D59CA64D232D0B35004B5AFF /* Resources */,
+				AB58C3385DF0B4A237C22154 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Osraty V1.2";
+			productName = "Osraty V1.2";
+			productReference = D59CA64F232D0B35004B5AFF /* Osraty V1.2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D59CA647232D0B35004B5AFF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1320;
+				ORGANIZATIONNAME = Anas;
+				TargetAttributes = {
+					D59CA64E232D0B35004B5AFF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = D59CA64A232D0B35004B5AFF /* Build configuration list for PBXProject "Osraty V1.2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D59CA646232D0B35004B5AFF;
+			productRefGroup = D59CA650232D0B35004B5AFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D59CA64E232D0B35004B5AFF /* Osraty V1.2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D59CA64D232D0B35004B5AFF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59CA6D6232D0DCE004B5AFF /* ConstructionChatCell.xib in Resources */,
+				D59CA6DC232D0DCE004B5AFF /* CustomerChatCell.xib in Resources */,
+				D59CA6E7232D0DCE004B5AFF /* CurrentOrdersListCell.xib in Resources */,
+				4CAD67E02333E9E700D6EEBD /* Main.storyboard in Resources */,
+				D59CA6E1232D0DCE004B5AFF /* LastOrdersListCell.xib in Resources */,
+				D59CA6DF232D0DCE004B5AFF /* notificationCell.xib in Resources */,
+				D59CA6D9232D0DCE004B5AFF /* orderDetailsCell.xib in Resources */,
+				4CAD67E12333E9E700D6EEBD /* LaunchScreen.storyboard in Resources */,
+				D59CA6DD232D0DCE004B5AFF /* OrdersTypeCell.xib in Resources */,
+				D59CA6E5232D0DCE004B5AFF /* CreditCardCell.xib in Resources */,
+				D59CA6E9232D0DCE004B5AFF /* accManagementCell.xib in Resources */,
+				D59CA6D8232D0DCE004B5AFF /* showOrderDetailsCell.xib in Resources */,
+				D59CA65A232D0B38004B5AFF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3E07ED23EE9F2B554C047DBD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Osraty V1.2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB58C3385DF0B4A237C22154 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Osraty V1.2/Pods-Osraty V1.2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Osraty V1.2/Pods-Osraty V1.2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Osraty V1.2/Pods-Osraty V1.2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D59CA64B232D0B35004B5AFF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D59CA6D5232D0DCE004B5AFF /* ConstructionChatCell.swift in Sources */,
+				D59CA6A8232D0D4C004B5AFF /* WalletVC.swift in Sources */,
+				D59CA6AF232D0D4C004B5AFF /* Grediant.swift in Sources */,
+				D59CA6DA232D0DCE004B5AFF /* orderDetailsCell.swift in Sources */,
+				D59CA6E8232D0DCE004B5AFF /* CurrentOrdersListCell.swift in Sources */,
+				D59CA69C232D0D4C004B5AFF /* ConversationsHistoryVC.swift in Sources */,
+				D59CA6A1232D0D4C004B5AFF /* CarRegisterationVC.swift in Sources */,
+				D59CA696232D0D4C004B5AFF /* NotifictionsVC.swift in Sources */,
+				D59CA694232D0D4C004B5AFF /* ProfileVC.swift in Sources */,
+				D59CA6A5232D0D4C004B5AFF /* MapVC.swift in Sources */,
+				D59CA699232D0D4C004B5AFF /* AccountManagmentVC.swift in Sources */,
+				4C1CA85E233CC89A00C2A7E2 /* naviControler.swift in Sources */,
+				D59CA69E232D0D4C004B5AFF /* customerChatVC.swift in Sources */,
+				D59CA6E6232D0DCE004B5AFF /* CreditCardCell.swift in Sources */,
+				D59CA6A2232D0D4C004B5AFF /* RegisterationVC.swift in Sources */,
+				D59CA6E2232D0DCE004B5AFF /* LastOrdersListCell.swift in Sources */,
+				D59CA698232D0D4C004B5AFF /* ListPricesVC.swift in Sources */,
+				D59CA69A232D0D4C004B5AFF /* CallUsVC.swift in Sources */,
+				D59CA6B0232D0D4C004B5AFF /* MainVC.swift in Sources */,
+				D59CA6DB232D0DCE004B5AFF /* CustomerChatCell.swift in Sources */,
+				D59CA6E0232D0DCE004B5AFF /* notificationCell.swift in Sources */,
+				D59CA6A0232D0D4C004B5AFF /* ChatVC.swift in Sources */,
+				D59CA695232D0D4C004B5AFF /* TermsAndConditionsVC.swift in Sources */,
+				D59CA6DE232D0DCE004B5AFF /* OrdersTypeCell.swift in Sources */,
+				D59CA653232D0B35004B5AFF /* AppDelegate.swift in Sources */,
+				D59CA6D7232D0DCE004B5AFF /* showOrderDetailsCell.swift in Sources */,
+				D59CA6AE232D0D4C004B5AFF /* buttonDesign.swift in Sources */,
+				D59CA6A6232D0D4C004B5AFF /* tabBarVC.swift in Sources */,
+				D59CA6A7232D0D4C004B5AFF /* OrderDetailsVC.swift in Sources */,
+				D59CA6A4232D0D4C004B5AFF /* EnterCodeVC.swift in Sources */,
+				D59CA6EA232D0DCE004B5AFF /* accManagementCell.swift in Sources */,
+				D59CA69B232D0D4C004B5AFF /* WhoUsVC.swift in Sources */,
+				D59CA69D232D0D4C004B5AFF /* constructionChatVC.swift in Sources */,
+				D59CA6AC232D0D4C004B5AFF /* CurrentOrdersVC.swift in Sources */,
+				D59CA6B1232D0D4C004B5AFF /* LoginVC.swift in Sources */,
+				D59CA6AB232D0D4C004B5AFF /* ContainerVC.swift in Sources */,
+				D59CA69F232D0D4C004B5AFF /* SplashVC.swift in Sources */,
+				D59CA6AD232D0D4C004B5AFF /* LastOrdersVC.swift in Sources */,
+				D59CA6A9232D0D4C004B5AFF /* SelectLanguageVC.swift in Sources */,
+				D59CA6A3232D0D4C004B5AFF /* CreditCardVC.swift in Sources */,
+				D54FF8E7232E83D2005C1A8E /* TextFiedPadding.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CAD67DC2333E9E700D6EEBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CAD67DD2333E9E700D6EEBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CAD67DE2333E9E700D6EEBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CAD67DF2333E9E700D6EEBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D59CA65F232D0B38004B5AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D59CA660232D0B38004B5AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D59CA662232D0B38004B5AFF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BFAC72AA7E59BED3D940E06 /* Pods-Osraty V1.2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HA2MWHWX4P;
+				INFOPLIST_FILE = "$(SRCROOT)/Osraty V1.2/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anas.Osraty-V1-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D59CA663232D0B38004B5AFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEFC7F89E9F1822A331AF9F4 /* Pods-Osraty V1.2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HA2MWHWX4P;
+				INFOPLIST_FILE = "$(SRCROOT)/Osraty V1.2/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anas.Osraty-V1-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D59CA64A232D0B35004B5AFF /* Build configuration list for PBXProject "Osraty V1.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59CA65F232D0B38004B5AFF /* Debug */,
+				D59CA660232D0B38004B5AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D59CA661232D0B38004B5AFF /* Build configuration list for PBXNativeTarget "Osraty V1.2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D59CA662232D0B38004B5AFF /* Debug */,
+				D59CA663232D0B38004B5AFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D59CA647232D0B35004B5AFF /* Project object */;
+}
